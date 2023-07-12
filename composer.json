@@ -1,0 +1,6 @@
+{
+    "require": {
+        "eftec/bladeone": "^4.9",
+        "illuminate/view": "^10.15"
+    }
+}
