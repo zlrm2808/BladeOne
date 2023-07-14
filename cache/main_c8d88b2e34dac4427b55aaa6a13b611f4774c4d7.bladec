@@ -5,7 +5,6 @@
  <?php
  date_default_timezone_set('America/Caracas');
  include_once "assets/cabecera.php";
- include_once "assets/conexion.php";
  ?>
 </head>
 <body className='snippet-body'>

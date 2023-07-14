@@ -14,9 +14,7 @@
                             <i class="material-icons left">apps</i>
                         </a>
                     </li>
-                    <li><a href="">Ficheros</a></li>
-                    <li><a href="">Configuracion</a></li>
-                    <li><a href="">Mariconeria</a></li>
+                    <li><a href="">{{ $items }}</a></li>
                 </ul>
             </div>
         </div>
