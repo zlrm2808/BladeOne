@@ -46,7 +46,6 @@ include "conexion.php";
             </div>
         </div>
         <div class="nav-content">
-            <span class="nav-title">Title</span>
             <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
                 <i class="material-icons">add</i>
             </a>
