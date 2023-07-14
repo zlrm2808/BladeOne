@@ -1,4 +1,5 @@
 <?php
+// Configuracion de Conexion a MySSQL
     $servername = "192.168.1.16";
     $username = "cliente";
     $password = "*/*J403101531*/*";
