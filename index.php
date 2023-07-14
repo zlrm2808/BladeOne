@@ -10,5 +10,7 @@
 
     $titulo = "Avícola la Providencia";
 
-    echo $blade->run("main", compact('titulo'));
+    $idmenu = "01";
+
+    echo $blade->run("main", compact('titulo', 'idmenu'));
 ?>

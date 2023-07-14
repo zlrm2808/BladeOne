@@ -4,3 +4,11 @@
     line-height: 80px;
     /* Ajusta la altura de la línea según el valor anterior */
 }
+
+@media only screen and (min-width: 601px) {
+
+ nav .nav-wrapper i {
+    line-height: 80px;
+  }
+
+}

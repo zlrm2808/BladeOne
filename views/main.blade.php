@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>{{ $titulo }}</title>
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="css/custom/styles.css">
-    <link rel="stylesheet" href="fonts/css/all.min.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap/bootstrap.js"></script>
+    <?php
+        date_default_timezone_set('America/Caracas');
+        include_once "assets/cabecera.php";
+        include_once "assets/conexion.php";
+    ?>
+</head>
+<body className='snippet-body'>
+    @include('navbar')
+
+
+  <script type="text/javascript">
+      let IDMENU = {{ $idmenu }} ;
+  </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script src="js/custom/funciones.js"></script>
     <?php
     include_once "assets/cabecera.php";
