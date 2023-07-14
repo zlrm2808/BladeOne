@@ -8,8 +8,7 @@
 
     $blade = new BladeOne($views, $cache);
 
-    $titulo = "Mierda";
-    $contenido = "Contenido de la página";
+    $titulo = "Avícola la Providencia";
 
-    echo $blade->run("main", compact('titulo', 'contenido'));
+    echo $blade->run("main", compact('titulo'));
 ?>
