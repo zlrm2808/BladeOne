@@ -1,0 +1,30 @@
+<div class="navbar-fixed">
+ <nav class="blue darken-3 custom-navbar">
+ <div class="row nav-wrapper">
+ <div class="col s2">
+ <div class="container">
+ <img src="img/Logo_menu.png" alt="" >
+ </div>
+ </div>
+ <div class="col s8">
+ <ul class="Left">
+ <li>
+ <a class="btn-flat white-text" href="#">
+ Aplicaciones
+ <i class="material-icons left">apps</i>
+ </a>
+ </li>
+ <li><a href="">Ficheros</a></li>
+ <li><a href="">Configuracion</a></li>
+ <li><a href="">Mariconeria</a></li>
+ </ul>
+ </div>
+ </div>
+ <div class="nav-content">
+ <span class="nav-title">Title</span>
+ <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+ <i class="material-icons">add</i>
+ </a>
+ </div>
+ </nav>
+</div>
